@@ -3,16 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style>
-        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f4f4f4; }
-        .card { background: white; padding: 2rem; border-radius: 10px; shadow: 0 4px 6px rgba(0,0,0,0.1); }
-    </style>
+    <title>Prakash Budha Magar | Full-Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
-        <h1>Prakash Budha Magar</h1>
-        <p>Welcome to my website! I am a full-stack developer.</p>
-    </div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">Prakash.</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="container text-center">
+                <p class="subtitle">Hello, I'm</p>
+                <h1>Prakash Budha Magar</h1>
+                <h2 class="role">Full-Stack Web Developer</h2>
+                <a href="#about" class="btn">Discover My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="about-content card">
+                    <p>
+                        Welcome! I am a passionate and results-driven <strong>Full-Stack Developer</strong> dedicated to building robust, scalable, and visually appealing web applications. I enjoy the challenge of bridging the gap between beautiful front-end user experiences and efficient, secure back-end architecture.
+                    </p>
+                    <p>
+                        With a strong foundation in modern web technologies, I thrive in environments where I can solve complex problems and learn new concepts. Whether I am designing a responsive user interface, designing a database, or building RESTful APIs, my goal is always to write clean, maintainable, and high-performance code.
+                    </p>
+                    <p>
+                        When I am not coding, I am exploring new tech trends, contributing to open-source projects, or looking for my next big challenge. I am currently open to exciting freelance opportunities and full-time roles.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>My Arsenal</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Front-End</h3>
+                        <p>HTML5, CSS3, JavaScript (ES6+), React.js, Tailwind CSS</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Back-End</h3>
+                        <p>Node.js, Express, Python, RESTful APIs</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Databases</h3>
+                        <p>MongoDB, PostgreSQL, MySQL</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Tools & Version Control</h3>
+                        <p>Git, GitHub, Docker, VS Code, Postman</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container text-center">
+            <h2>Let's Build Something Together</h2>
+            <p>Reach out to me at: <a href="mailto:hello@example.com">hello@example.com</a></p>
+            <p class="copyright">&copy; 2026 Prakash Budha Magar. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
